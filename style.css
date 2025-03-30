@@ -1,0 +1,42 @@
+body {
+    background-color: rgba(0, 128, 0, 0.5);
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4em;
+
+}
+#inputForm {
+    text-align: center;
+}
+.inputClass{
+    font-size: 2em;
+}
+#toDoInput{
+    border-radius: 10px;
+    border:none;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#submitButton{
+    padding:8px;
+    border-radius:10px;
+    transition: all 0.3s ease;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+#submitButton:hover{
+    background-color: lightgreen;
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#submitButton:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #90EE90;
+}
